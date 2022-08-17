@@ -1,0 +1,139 @@
+body {
+  background: #f3f5fc;
+  background-image: url(lupa.png);
+  background-size: 100px;
+}
+
+h1 {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+
+  width: 600px;
+  height: 60px;
+  margin-left: 350px;
+  padding-top: 5px;
+
+  background: #0a3871;
+  border: 2px solid white;
+  border-radius: 24px;
+}
+
+#input-text {
+  width: 680px;
+  height: 400px;
+  left: 240px;
+  top: 168px;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  text-align: justify;
+
+  text-transform: lowercase;
+
+  color: #0a3871;
+  background-color: white;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+
+.input-text {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 70px;
+
+  display: inline-block;
+  border: 1px solid #0a3871;
+  color: #0a3871;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: white;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+
+#input-result {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 800px;
+  top: 120px;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  text-align: center;
+
+  color: #0a3871;
+
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+
+  background: #ffffff;
+  background-image: url(lupa.jpg);
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position-x: left;
+  background-position-y: bottom;
+}
+
+#button-criptografar {
+  display: inline-block;
+  align-items: center;
+
+  color: white;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  width: 300px;
+  height: 45px;
+  margin-left: 30px;
+
+  background: #0a3871;
+  border-radius: 24px;
+}
+
+#button-descriptografar {
+  box-sizing: border-box;
+
+  display: inline-block;
+  align-items: center;
+
+  width: 300px;
+  height: 45px;
+  margin-left: 20px;
+
+  background: #d8dfe8;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  border-radius: 24px;
+}
+
+#button-copy {
+  display: inline-block;
+  align-items: center;
+
+  color: white;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  width: 300px;
+  height: 45px;
+  margin-left: 190px;
+
+  background: #0a3871;
+  border-radius: 20px;
+}
+h6 {
+  text-align: center;
+  color: #0a3871;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: white;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}

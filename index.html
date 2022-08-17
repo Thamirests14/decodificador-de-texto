@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   <link rel="stylesheet" href="/1challenge/style.css" />
+
+    <title>Decodificador de texto</title>
+  </head>
+  <body>
+    <h1>Decodificador de texto</h1>
+    
+    <textarea id="input-text" value="" placeholder="Digite sua mensagem aqui..."></textarea></br>
+    <label class="input-text">Apenas letras minúsculas e sem caracteres especiais.</label>
+
+  </br>
+
+    <p>
+      <button type="button" id="button-criptografar" onclick="botaoCriptografar()">Criptografar</button>
+      <button type="button" id="button-descriptografar" onclick="botaoDescriptografar()">Descriptografar</button>
+      <button type="button" id="button-copy" onclick="botaoCopiar()">Copiar</button>
+    </p>
+
+    <textarea id="input-result" readonly>Nenhuma mensagem encontrada!</textarea>
+
+    <h6>Desenvolvido por Thamires Teobaldo da Silva. GitHub Thamirests14.</h6>
+
+    <script defer src="/1challenge/script.js"></script>
+  </body>
+</html>
